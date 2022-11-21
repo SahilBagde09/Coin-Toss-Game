@@ -1,0 +1,100 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  padding: 20px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .main-container {
+    width: 80%;
+  }
+}
+.coin-image {
+  height: 230px;
+  width: 230px;
+}
+@media (max-width: 767px) {
+  .coin-image {
+    height: 180px;
+    width: 180px;
+  }
+}
+.heading-element {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  color: #a35200;
+}
+@media (max-width: 767px) {
+  .heading-element {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+.game-description {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #334155;
+}
+@media (max-width: 767px) {
+  .game-description {
+    font-size: 15px;
+  }
+}
+.toss-button {
+  margin-top: 20px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  border-style: none;
+  color: #a35200;
+  background-color: #f9d423;
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .toss-button {
+    font-size: 14px;
+  }
+}
+.stats-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .stats-display {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.stats {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #475569;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .stats {
+    font-size: 14px;
+  }
+}
